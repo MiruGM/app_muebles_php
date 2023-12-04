@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <!-- Enlaces a bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- Script de Bootstrap -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom_style_empleados.css">
+
+    <title>Mevak - Empleados</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand titleFont" id="mnuInicio" href="index.php">MEVAK - Portal Empleados</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">PRODUCTOS</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" id="mnuAltaProducto" href="alta_producto.php">Alta Producto</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" id="mnuBuscarProducto" href="buscar_producto_nombre.php">Buscar Productos por Nombre</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" id="mnuBuscarProductoPrecio" href="buscar_producto_precio.php">Buscar Productos por
+                                    Precio</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" id="mnuListarProducto" href="listar_producto.php">Listado de Productos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">CATEGORÍAS</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" id="mnuAltaCategoria" href="alta_categoria.php">Alta de
+                                    Categoría</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" id="mnuBuscarCategoria" href="buscar_categoria_id.php">Buscar
+                                    una Categoría</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" id="mnuListarCategorias" href="listar_categorias.php">Listado
+                                    de Categorías</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
